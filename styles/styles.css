@@ -22,6 +22,19 @@ body {
     }
 }
 
+/* Breakpoint */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
 header {
     height: 50vh;
     display: flex;
@@ -64,6 +77,10 @@ a:hover {
 .site-title {
     text-align: center;
     color: whitesmoke;
+}
+
+.site-title {
+    font-size: 4em;
 }
 
 .site-subtitle {
